@@ -1,0 +1,1377 @@
+==============================================================
+======================= Запущена модель ======================
+==============================================================
+	
+Параметры модели:	
+	
+Количество узлов: 	
+KUVS = 3	
+	
+Количество заявок: 	
+KZ = 2	
+	
+Маршрут:	
+0 1 2	
+1 0 1	
+	
+МО:	
+4 5 4	
+3 4 5	
+	
+Максимальное количество ПП в каждом узле:	
+1 1 1	
+	
+Время прогона: 	
+TP = 100	
+	
+Начальное состояние модели:	
+TSZ[0,0,0] KC[0,0] LSQ[0,0,0] LKPP[0,0,0]	
+	
+	
+==============================================================
+	
++ 0	K1		
++ 0	K1		
+TSZ[0,0,0] KC[0,0] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+0,000		 K1			
++ 1,989	K1		
+TSZ[1,1,0] KC[0,0] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 1 NZ = 2 NE = 2 KOK = 7	
+	
+0,000		 K1			
++ 0,9	K1		
+TSZ[2,2,0] KC[0,0] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 7	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+	
+0,900		 K1			
++ 1,255	K1		
+TSZ[3,3,0] KC[0,0] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 6	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+	
+1,255		 K1			
++ 1,93	K1		
+TSZ[4,4,0] KC[0,0] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+	
+1,930		 K1			
++ 2,355	K1		
+TSZ[5,5,0] KC[0,0] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 4	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+1,989		 K1			
++ 2,319	K1		
+TSZ[6,6,0] KC[0,0] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+	
+2,319		 K1			
++ 4,162	K1		
+TSZ[7,7,1] KC[0,0] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+2,355		 K1			
++ 3,458	K1		
+TSZ[8,7,2] KC[0,0] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+3,458		 K1			
++ 3,618	K1		
+TSZ[9,8,3] KC[1,0] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 2 NZ = 2 NE = 3 KOK = 6	
+	
+3,618		 K1			
++ 4,215	K1		
+TSZ[10,9,3] KC[1,0] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 2 NZ = 2 NE = 3 KOK = 5	
+	
+4,162		 K1			
++ 5,233	K1		
+TSZ[11,10,3] KC[1,0] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 2 NZ = 2 NE = 3 KOK = 4	
+	
+4,215		 K1			
++ 4,237	K1		
+TSZ[12,11,3] KC[1,0] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+	
+4,237		 K1			
++ 4,273	K1		
+TSZ[12,12,3] KC[1,0] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+	
+4,273		 K1			
++ 4,285	K1		
+TSZ[12,13,3] KC[1,0] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+	
+4,285		 K1			
++ 5,381	K1		
+TSZ[12,14,3] KC[1,1] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+NU = 2 NZ = 2 NE = 1 KOK = 6	
+	
+5,233		 K1			
++ 5,403	K1		
+TSZ[12,15,3] KC[1,1] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+NU = 2 NZ = 2 NE = 1 KOK = 6	
+	
+5,381		 K1			
++ 5,897	K1		
+TSZ[12,16,3] KC[1,1] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+NU = 2 NZ = 2 NE = 1 KOK = 6	
+	
+5,403		 K1			
++ 6,549	K1		
+TSZ[12,17,3] KC[1,1] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+NU = 2 NZ = 2 NE = 1 KOK = 6	
+	
+5,897		 K1			
++ 6,929	K1		
+TSZ[12,18,4] KC[1,1] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 6	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+6,549		 K1			
++ 7,563	K1		
+TSZ[12,19,5] KC[1,1] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 5	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+6,929		 K1			
++ 7,418	K1		
+TSZ[12,20,6] KC[2,1] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+7,418		 K1			
++ 8,51	K1		
+TSZ[13,21,6] KC[2,1] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+	
+7,563		 K1			
++ 9,179	K1		
+TSZ[13,22,6] KC[2,1] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+	
+8,510		 K1			
++ 9,441	K1		
+TSZ[13,23,6] KC[2,1] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+	
+9,179		 K1			
++ 14,38	K1		
+TSZ[13,24,6] KC[2,1] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 4	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+	
+9,441		 K1			
++ 9,982	K1		
+TSZ[14,25,6] KC[2,1] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+	
+9,982		 K1			
++ 11,041	K1		
+TSZ[15,26,6] KC[2,1] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+	
+11,041		 K1			
++ 11,109	K1		
+TSZ[16,27,6] KC[2,1] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+11,109		 K1			
++ 11,391	K1		
+TSZ[17,28,6] KC[2,1] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+NU = 2 NZ = 2 NE = 3 KOK = 5	
+	
+11,391		 K1			
++ 12,015	K1		
+TSZ[17,29,7] KC[2,1] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 5	
+NU = 3 NZ = 1 NE = 3 KOK = 5	
+	
+12,015		 K1			
++ 12,046	K1		
+TSZ[17,30,8] KC[2,1] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 4	
+NU = 3 NZ = 1 NE = 3 KOK = 4	
+	
+12,046		 K1			
++ 14,237	K1		
+TSZ[17,31,9] KC[2,1] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+NU = 3 NZ = 1 NE = 3 KOK = 3	
+	
+14,237		 K1			
++ 15,134	K1		
+TSZ[17,32,10] KC[2,1] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+14,380		 K1			
++ 14,672	K1		
+TSZ[17,33,11] KC[2,1] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+14,672		 K1			
++ 15,15	K1		
+TSZ[17,34,12] KC[3,2] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 7	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+15,134		 K1			
++ 15,25	K1		
+TSZ[18,35,12] KC[3,2] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 6	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+15,150		 K1			
++ 16,94	K1		
+TSZ[19,36,12] KC[3,2] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+	
+15,250		 K1			
++ 15,488	K1		
+TSZ[20,36,12] KC[3,2] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 4	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+	
+15,488		 K1			
++ 16,212	K1		
+TSZ[21,36,12] KC[3,2] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+	
+16,212		 K1			
++ 17,08	K1		
+TSZ[22,36,12] KC[3,2] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+	
+16,940		 K1			
++ 16,948	K1		
+TSZ[23,36,12] KC[3,2] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+	
+16,948		 K1			
++ 18,99	K1		
+TSZ[24,37,12] KC[3,2] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+17,080		 K1			
++ 17,386	K1		
+TSZ[25,38,12] KC[3,2] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 4	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+	
+17,386		 K1			
++ 17,835	K1		
+TSZ[26,39,13] KC[3,2] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 3 NZ = 1 NE = 3 KOK = 7	
+	
+17,835		 K1			
++ 18,547	K1		
+TSZ[27,39,14] KC[3,2] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 6	
+	
+18,547		 K1			
++ 19,211	K1		
+TSZ[28,39,15] KC[3,2] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 5	
+	
+18,990		 K1			
++ 19,884	K1		
+TSZ[29,40,16] KC[3,2] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 4	
+	
+19,211		 K1			
++ 19,775	K1		
+TSZ[29,41,17] KC[3,2] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 3	
+	
+19,775		 K1			
++ 19,847	K1		
+TSZ[29,42,18] KC[3,3] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+19,847		 K1			
++ 19,933	K1		
+TSZ[29,43,19] KC[3,3] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+19,884		 K1			
++ 23,467	K1		
+TSZ[29,44,20] KC[4,3] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 6	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+	
+19,933		 K1			
++ 20,245	K1		
+TSZ[30,44,20] KC[4,3] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+	
+20,245		 K1			
++ 20,692	K1		
+TSZ[31,44,20] KC[4,3] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 4	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+	
+20,692		 K1			
++ 21,414	K1		
+TSZ[32,44,20] KC[4,3] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+	
+21,414		 K1			
++ 22,145	K1		
+TSZ[33,44,20] KC[4,3] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+	
+22,145		 K1			
++ 23,773	K1		
+TSZ[34,44,20] KC[4,3] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+	
+23,467		 K1			
++ 23,873	K1		
+TSZ[35,45,20] KC[4,3] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+	
+23,773		 K1			
++ 24,026	K1		
+TSZ[36,46,20] KC[4,3] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 4	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+	
+23,873		 K1			
++ 27,611	K1		
+TSZ[37,47,20] KC[4,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+24,026		 K1			
++ 25,247	K1		
+TSZ[38,48,20] KC[4,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+25,247		 K1			
++ 25,535	K1		
+TSZ[39,49,20] KC[4,4] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+	
+25,535		 K1			
++ 26,669	K1		
+TSZ[40,50,20] KC[4,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+	
+26,669		 K1			
++ 27,297	K1		
+TSZ[41,51,20] KC[4,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+27,297		 K1			
++ 27,336	K1		
+TSZ[42,52,20] KC[4,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+	
+27,336		 K1			
++ 27,715	K1		
+TSZ[43,53,21] KC[4,4] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 10	
+NU = 3 NZ = 1 NE = 3 KOK = 4	
+	
+27,611		 K1			
++ 28,108	K1		
+TSZ[43,54,22] KC[4,4] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 9	
+NU = 3 NZ = 1 NE = 3 KOK = 3	
+	
+27,715		 K1			
++ 28,712	K1		
+TSZ[43,55,23] KC[4,4] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 8	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+28,108		 K1			
++ 28,811	K1		
+TSZ[43,56,24] KC[4,4] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 7	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+28,712		 K1			
++ 28,993	K1		
+TSZ[43,57,25] KC[5,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 6	
+NU = 2 NZ = 2 NE = 3 KOK = 6	
+	
+28,811		 K1			
++ 28,958	K1		
+TSZ[44,58,25] KC[5,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+NU = 2 NZ = 2 NE = 3 KOK = 5	
+	
+28,958		 K1			
++ 29,318	K1		
+TSZ[45,59,25] KC[5,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 4	
+NU = 2 NZ = 2 NE = 3 KOK = 4	
+	
+28,993		 K1			
++ 29,379	K1		
+TSZ[46,60,25] KC[5,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+	
+29,318		 K1			
++ 30,149	K1		
+TSZ[47,61,25] KC[5,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+	
+29,379		 K1			
++ 30,237	K1		
+TSZ[48,62,25] KC[5,4] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+	
+30,149		 K1			
++ 32,435	K1		
+TSZ[49,63,25] KC[5,5] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+30,237		 K1			
++ 30,9	K1		
+TSZ[49,64,25] KC[5,5] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+30,900		 K1			
++ 31,21	K1		
+TSZ[49,65,26] KC[5,5] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+31,210		 K1			
++ 31,326	K1		
+TSZ[49,66,27] KC[6,5] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 10	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+	
+31,326		 K1			
++ 33,335	K1		
+TSZ[50,67,27] KC[6,5] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 9	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+32,435		 K1			
++ 32,622	K1		
+TSZ[51,68,27] KC[6,5] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 8	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+32,622		 K1			
++ 33,052	K1		
+TSZ[52,69,27] KC[6,5] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 7	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+	
+33,052		 K1			
++ 33,226	K1		
+TSZ[53,69,27] KC[6,5] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 6	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+	
+33,226		 K1			
++ 33,522	K1		
+TSZ[54,69,27] KC[6,5] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+	
+33,335		 K1			
++ 33,891	K1		
+TSZ[55,69,27] KC[6,5] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 4	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+	
+33,522		 K1			
++ 37,445	K1		
+TSZ[56,69,27] KC[6,5] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+	
+33,891		 K1			
++ 34,987	K1		
+TSZ[57,69,27] KC[6,5] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+	
+34,987		 K1			
++ 36,434	K1		
+TSZ[58,69,27] KC[6,5] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+	
+36,434		 K1			
++ 38,913	K1		
+TSZ[59,70,27] KC[6,5] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 6	
+	
+37,445		 K1			
++ 38,023	K1		
+TSZ[60,71,27] KC[6,5] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+	
+38,023		 K1			
++ 39,076	K1		
+TSZ[61,72,27] KC[6,5] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+NU = 2 NZ = 2 NE = 3 KOK = 8	
+	
+38,913		 K1			
++ 39,258	K1		
+TSZ[61,73,27] KC[6,5] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+NU = 2 NZ = 2 NE = 3 KOK = 8	
+	
+39,076		 K1			
++ 39,423	K1		
+TSZ[61,74,27] KC[6,5] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+NU = 2 NZ = 2 NE = 3 KOK = 8	
+	
+39,258		 K1			
++ 39,39	K1		
+TSZ[61,75,27] KC[6,5] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+NU = 2 NZ = 2 NE = 3 KOK = 8	
+	
+39,390		 K1			
++ 40,033	K1		
+TSZ[61,76,28] KC[6,5] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 8	
+NU = 3 NZ = 1 NE = 3 KOK = 5	
+	
+39,423		 K1			
++ 40,029	K1		
+TSZ[61,77,29] KC[6,5] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 7	
+NU = 3 NZ = 1 NE = 3 KOK = 4	
+	
+40,029		 K1			
++ 40,233	K1		
+TSZ[61,78,30] KC[6,5] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 6	
+NU = 3 NZ = 1 NE = 3 KOK = 3	
+	
+40,033		 K1			
++ 40,193	K1		
+TSZ[61,79,31] KC[6,5] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 5	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+40,193		 K1			
++ 40,805	K1		
+TSZ[61,80,32] KC[6,5] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 4	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+40,233		 K1			
++ 40,764	K1		
+TSZ[61,81,33] KC[7,5] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+	
+40,764		 K1			
++ 41,896	K1		
+TSZ[62,82,33] KC[7,5] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+	
+40,805		 K1			
++ 41,619	K1		
+TSZ[63,83,33] KC[7,5] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+	
+41,619		 K1			
++ 41,835	K1		
+TSZ[64,84,33] KC[7,6] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 8	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+41,835		 K1			
++ 42,161	K1		
+TSZ[64,85,33] KC[7,6] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 7	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+41,896		 K1			
++ 42,297	K1		
+TSZ[64,86,33] KC[7,6] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 6	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+42,161		 K1			
++ 43,485	K1		
+TSZ[64,87,33] KC[7,6] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+42,297		 K1			
++ 43,019	K1		
+TSZ[64,88,33] KC[7,6] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+43,019		 K1			
++ 43,505	K1		
+TSZ[64,89,33] KC[7,6] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+43,485		 K1			
++ 43,713	K1		
+TSZ[64,90,33] KC[7,6] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+43,505		 K1			
++ 45,39	K1		
+TSZ[64,91,33] KC[7,6] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+	
+43,713		 K1			
++ 44,166	K1		
+TSZ[64,92,34] KC[7,6] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+44,166		 K1			
++ 44,464	K1		
+TSZ[64,93,35] KC[7,6] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+44,464		 K1			
++ 44,725	K1		
+TSZ[64,94,36] KC[8,6] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 6	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+44,725		 K1			
++ 45,017	K1		
+TSZ[65,95,36] KC[8,6] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+45,017		 K1			
++ 50,663	K1		
+TSZ[66,96,36] KC[8,6] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 4	
+NU = 1 NZ = 2 NE = 2 KOK = 7	
+	
+45,390		 K1			
++ 46,111	K1		
+TSZ[67,96,36] KC[8,6] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 1 NZ = 2 NE = 2 KOK = 7	
+	
+46,111		 K1			
++ 48,246	K1		
+TSZ[68,96,36] KC[8,6] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 1 NZ = 2 NE = 2 KOK = 7	
+	
+48,246		 K1			
++ 48,461	K1		
+TSZ[69,96,36] KC[8,6] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 1 NZ = 2 NE = 2 KOK = 7	
+	
+48,461		 K1			
++ 49,232	K1		
+TSZ[70,97,36] KC[8,6] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 7	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+	
+49,232		 K1			
++ 50,282	K1		
+TSZ[71,98,36] KC[8,6] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 6	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+	
+50,282		 K1			
++ 52,084	K1		
+TSZ[72,99,36] KC[8,6] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+50,663		 K1			
++ 51,443	K1		
+TSZ[73,100,36] KC[8,6] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 4	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+	
+51,443		 K1			
++ 53,017	K1		
+TSZ[74,101,37] KC[8,6] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 3 NZ = 1 NE = 3 KOK = 4	
+	
+52,084		 K1			
++ 52,277	K1		
+TSZ[75,101,38] KC[8,6] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 3	
+	
+52,277		 K1			
++ 52,318	K1		
+TSZ[76,101,39] KC[8,6] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+52,318		 K1			
++ 52,723	K1		
+TSZ[77,102,40] KC[8,6] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+52,723		 K1			
++ 54,387	K1		
+TSZ[77,103,41] KC[9,6] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 4	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+	
+53,017		 K1			
++ 54,226	K1		
+TSZ[78,104,41] KC[9,6] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+	
+54,226		 K1			
++ 55,195	K1		
+TSZ[79,105,41] KC[9,7] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 2 NZ = 2 NE = 1 KOK = 6	
+	
+54,387		 K1			
++ 54,417	K1		
+TSZ[80,106,41] KC[9,7] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 2 NZ = 2 NE = 1 KOK = 5	
+	
+54,417		 K1			
++ 55,604	K1		
+TSZ[81,107,41] KC[9,7] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 1 KOK = 4	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+55,195		 K1			
++ 55,458	K1		
+TSZ[81,108,41] KC[9,7] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+55,458		 K1			
++ 56,936	K1		
+TSZ[81,109,41] KC[9,7] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+55,604		 K1			
++ 57,663	K1		
+TSZ[81,110,41] KC[9,7] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+56,936		 K1			
++ 57,09	K1		
+TSZ[81,111,41] KC[9,7] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 4	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+57,090		 K1			
++ 58,335	K1		
+TSZ[82,112,41] KC[9,7] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+	
+57,663		 K1			
++ 58,483	K1		
+TSZ[83,113,42] KC[9,7] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+58,335		 K1			
++ 59,665	K1		
+TSZ[84,113,43] KC[9,7] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+58,483		 K1			
++ 58,546	K1		
+TSZ[85,114,44] KC[10,7] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 7	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+	
+58,546		 K1			
++ 58,613	K1		
+TSZ[86,115,44] KC[10,7] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 6	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+	
+58,613		 K1			
++ 58,66	K1		
+TSZ[87,116,44] KC[10,7] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+	
+58,660		 K1			
++ 58,948	K1		
+TSZ[88,117,44] KC[10,8] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 4	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+58,948		 K1			
++ 60,387	K1		
+TSZ[89,118,44] KC[10,8] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+	
+59,665		 K1			
++ 60,219	K1		
+TSZ[90,118,44] KC[10,8] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+	
+60,219		 K1			
++ 60,567	K1		
+TSZ[91,118,44] KC[10,8] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+	
+60,387		 K1			
++ 60,476	K1		
+TSZ[92,119,44] KC[10,8] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+	
+60,476		 K1			
++ 61,199	K1		
+TSZ[93,120,44] KC[10,8] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+60,567		 K1			
++ 61,512	K1		
+TSZ[94,121,44] KC[10,8] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+	
+61,199		 K1			
++ 61,726	K1		
+TSZ[95,122,45] KC[10,8] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 7	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+61,512		 K1			
++ 62,111	K1		
+TSZ[95,123,46] KC[10,8] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 6	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+61,726		 K1			
++ 62,733	K1		
+TSZ[95,124,47] KC[11,8] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 2 NZ = 2 NE = 3 KOK = 5	
+	
+62,111		 K1			
++ 63,302	K1		
+TSZ[96,125,47] KC[11,8] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 2 NZ = 2 NE = 3 KOK = 4	
+	
+62,733		 K1			
++ 63,267	K1		
+TSZ[97,126,47] KC[11,8] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 6	
+	
+63,267		 K1			
++ 64,169	K1		
+TSZ[97,127,47] KC[11,8] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 6	
+	
+63,302		 K1			
++ 63,929	K1		
+TSZ[97,128,47] KC[11,8] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 6	
+	
+63,929		 K1			
++ 65,876	K1		
+TSZ[97,129,47] KC[11,9] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 6	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+64,169		 K1			
++ 69,478	K1		
+TSZ[97,130,47] KC[11,9] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+65,876		 K1			
++ 66,079	K1		
+TSZ[97,131,47] KC[11,9] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+66,079		 K1			
++ 67,798	K1		
+TSZ[97,132,47] KC[11,9] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+67,798		 K1			
++ 67,88	K1		
+TSZ[97,133,47] KC[11,9] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+67,880		 K1			
++ 68,866	K1		
+TSZ[97,134,47] KC[11,9] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+68,866		 K1			
++ 71,557	K1		
+TSZ[97,135,48] KC[11,9] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 4	
+	
+69,478		 K1			
++ 70,287	K1		
+TSZ[97,136,49] KC[11,9] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 3	
+	
+70,287		 K1			
++ 70,672	K1		
+TSZ[97,137,50] KC[11,9] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+70,672		 K1			
++ 71,019	K1		
+TSZ[98,137,51] KC[11,9] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+71,019		 K1			
++ 72,182	K1		
+TSZ[99,138,52] KC[12,9] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 7	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+	
+71,557		 K1			
++ 72,176	K1		
+TSZ[100,139,52] KC[12,10] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 6	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+	
+72,176		 K1			
++ 73,759	K1		
+TSZ[101,140,52] KC[12,10] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 5	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+	
+72,182		 K1			
++ 72,651	K1		
+TSZ[102,141,52] KC[12,10] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 4	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+72,651		 K1			
++ 74,032	K1		
+TSZ[103,142,52] KC[12,10] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 1 NZ = 2 NE = 2 KOK = 6	
+	
+73,759		 K1			
++ 74,036	K1		
+TSZ[104,142,52] KC[12,10] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 1 NZ = 2 NE = 2 KOK = 6	
+	
+74,032		 K1			
++ 75,116	K1		
+TSZ[105,142,52] KC[12,10] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 1 NZ = 2 NE = 2 KOK = 6	
+	
+74,036		 K1			
++ 75,209	K1		
+TSZ[106,143,52] KC[12,10] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 6	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+	
+75,116		 K1			
++ 76,178	K1		
+TSZ[107,144,52] KC[12,10] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 5	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+	
+75,209		 K1			
++ 75,255	K1		
+TSZ[108,145,52] KC[12,10] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 4	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+	
+75,255		 K1			
++ 75,55	K1		
+TSZ[109,146,52] KC[12,10] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+75,550		 K1			
++ 76,434	K1		
+TSZ[110,147,52] KC[12,10] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+	
+76,178		 K1			
++ 80,652	K1		
+TSZ[111,148,53] KC[12,10] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 5	
+	
+76,434		 K1			
++ 76,614	K1		
+TSZ[112,149,54] KC[12,10] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+NU = 3 NZ = 1 NE = 3 KOK = 4	
+	
+76,614		 K1			
++ 77,525	K1		
+TSZ[112,150,55] KC[12,10] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 3	
+	
+77,525		 K1			
++ 77,573	K1		
+TSZ[112,151,56] KC[12,10] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+77,573		 K1			
++ 78,476	K1		
+TSZ[112,152,57] KC[12,11] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+78,476		 K1			
++ 79,097	K1		
+TSZ[112,153,58] KC[13,11] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+79,097		 K1			
++ 79,769	K1		
+TSZ[113,154,58] KC[13,11] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+	
+79,769		 K1			
++ 81,553	K1		
+TSZ[114,154,58] KC[13,11] LSQ[1,0,0] LKPP[1,0,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+	
+80,652		 K1			
++ 81,359	K1		
+TSZ[115,155,58] KC[13,11] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+	
+81,359		 K1			
++ 81,635	K1		
+TSZ[116,156,58] KC[13,11] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+	
+81,553		 K1			
++ 82,73	K1		
+TSZ[117,157,59] KC[13,11] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+81,635		 K1			
++ 83,751	K1		
+TSZ[118,158,60] KC[14,11] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 3	
+NU = 2 NZ = 2 NE = 3 KOK = 4	
+	
+82,730		 K1			
++ 83,385	K1		
+TSZ[119,159,60] KC[14,11] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 2	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+	
+83,385		 K1			
++ 83,725	K1		
+TSZ[120,160,60] KC[14,11] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+	
+83,725		 K1			
++ 86,046	K1		
+TSZ[121,161,60] KC[14,11] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 11	
+	
+83,751		 K1			
++ 83,982	K1		
+TSZ[121,162,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 11	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+83,982		 K1			
++ 84,263	K1		
+TSZ[121,163,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 10	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+84,263		 K1			
++ 86,864	K1		
+TSZ[121,164,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 9	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+86,046		 K1			
++ 87,671	K1		
+TSZ[121,165,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 8	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+86,864		 K1			
++ 87,914	K1		
+TSZ[121,166,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 7	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+87,671		 K1			
++ 88,726	K1		
+TSZ[121,167,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 6	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+87,914		 K1			
++ 88,665	K1		
+TSZ[121,168,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+88,665		 K1			
++ 91,204	K1		
+TSZ[121,169,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+88,726		 K1			
++ 89,71	K1		
+TSZ[121,170,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+89,710		 K1			
++ 90,558	K1		
+TSZ[121,171,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+90,558		 K1			
++ 92,517	K1		
+TSZ[121,172,60] KC[14,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+	
+91,204		 K1			
++ 91,292	K1		
+TSZ[121,173,61] KC[14,12] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 6	
+	
+91,292		 K1			
++ 91,681	K1		
+TSZ[121,174,62] KC[14,12] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 4	
+NU = 3 NZ = 1 NE = 3 KOK = 5	
+	
+91,681		 K1			
++ 92,391	K1		
+TSZ[122,174,63] KC[14,12] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 3	
+NU = 3 NZ = 1 NE = 3 KOK = 4	
+	
+92,391		 K1			
++ 93,256	K1		
+TSZ[123,174,64] KC[14,12] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 3	
+	
+92,517		 K1			
++ 94,118	K1		
+TSZ[124,174,65] KC[14,12] LSQ[0,0,0] LKPP[1,0,1]	
+NU = 1 NZ = 2 NE = 2 KOK = 1	
+NU = 3 NZ = 1 NE = 3 KOK = 2	
+	
+93,256		 K1			
++ 93,378	K1		
+TSZ[125,175,66] KC[14,12] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 3 KOK = 4	
+NU = 3 NZ = 1 NE = 3 KOK = 1	
+	
+93,378		 K1			
++ 93,427	K1		
+TSZ[125,176,67] KC[15,12] LSQ[0,0,0] LKPP[1,1,0]	
+NU = 1 NZ = 1 NE = 1 KOK = 1	
+NU = 2 NZ = 2 NE = 3 KOK = 3	
+	
+93,427		 K1			
++ 94,596	K1		
+TSZ[126,177,67] KC[15,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 3 KOK = 2	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+	
+94,118		 K1			
++ 94,181	K1		
+TSZ[126,178,67] KC[15,12] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 2 NE = 3 KOK = 1	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+	
+94,181		 K1			
++ 97,357	K1		
+TSZ[126,179,67] KC[15,13] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 5	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+	
+94,596		 K1			
++ 96,979	K1		
+TSZ[126,180,67] KC[15,13] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 4	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+	
+96,979		 K1			
++ 98,101	K1		
+TSZ[126,181,67] KC[15,13] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 3	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+	
+97,357		 K1			
++ 98,739	K1		
+TSZ[126,182,67] KC[15,13] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 2	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+	
+98,101		 K1			
++ 100,177	K1		
+TSZ[126,183,67] KC[15,13] LSQ[0,1,0] LKPP[0,1,0]	
+NU = 2 NZ = 1 NE = 2 KOK = 1	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+	
+98,739		 K1			
++ 101,859	K1		
+TSZ[126,184,68] KC[15,13] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 3	
+NU = 3 NZ = 1 NE = 3 KOK = 4	
+	
+100,177		 K1			
++ 103,139	K1		
+TSZ[126,185,69] KC[15,13] LSQ[0,0,0] LKPP[0,1,1]	
+NU = 2 NZ = 2 NE = 1 KOK = 2	
+NU = 3 NZ = 1 NE = 3 KOK = 3	
+	
+	
+==============================================================
+============Статистические результаты моделирования===========
+==============================================================
+	
+Время моделирования: 100,18
+
+Интенсивность числа полных прогонов: 
+Заявка 1: 0,15
+Заявка 2: 0,13
+
+Вероятность загрузки узлов: 
+Узел 1: 0,331578947368421
+Узел 2: 0,486842105263158
+Узел 3: 0,181578947368421
+
+Статистические характеристики длин очередей: 
+Очереди KPP: 
+МО = 0,573
+Дисперсия = 0,246
+МО = 0,771
+Дисперсия = 0,178
+МО = 0,248
+Дисперсия = 0,187
+Очереди SQ: 
+МО = 0,147
+Дисперсия = 0,126
+МО = 0,261
+Дисперсия = 0,194
+МО = 0,000
+Дисперсия = 0,000
