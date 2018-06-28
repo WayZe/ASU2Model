@@ -33,10 +33,18 @@ namespace Model_Lab
         {
             #region Параметры модели
 
-            MAINMEM = 100.0;
+            MAINMEM = 5.0;
             FREEMEM = MAINMEM;
+            //  интенсивность входного потока(простейший поток).
+            IVP = 0.2;
+            // интенсивность экспоненциального ЗР, которому подчинено выделение объема памяти из основной, для создания программных процессов(ПП).
+            IEZR  = 0.5;
+            // интенсивность ЗР Пуассона, которому подчинено выделение количества квантов времени, необходимых для выполнения ПП.
+            IZRP = 0.5;
+            // величина кванта процессорного времени(сек).
+            DELKV = 1.0;
 
-			TR = 100;
+            TR = 100;
 
             #endregion
 
@@ -47,6 +55,8 @@ namespace Model_Lab
             (GenVol.BPN as GeneratedBaseRandomStream).Seed = 3;
 
             GenVol.Lyambda = IEZR;
+            GenKK.A = 1 / IZRP;
+            GenTime.Lyambda = IVP;
 
             #endregion
         }
@@ -69,15 +79,13 @@ namespace Model_Lab
             Z1.NZ = 1;
 			Z1.MEM = GenVol.GenerateValue();
 			Z1.KPT = GenKK.GenerateValue();
-			ev1.ZP = Z1;     
-			var rec1 = new QRec();
-            rec1.Z = Z1;
+            ev1.ZP = Z1;     
+
             PlanEvent(ev1, 0.0);                        
 			Tracer.PlanEventTrace(ev1);
 
-            var ev2 = new K1();                         
-            Bid Z2 = new Bid();
-            PlanEvent(ev2, 1.0);                        
+            var ev2 = new K2();                         
+            PlanEvent(ev2, DELKV);                        
             Tracer.PlanEventTrace(ev2);
             TraceModel();
 
@@ -163,7 +171,7 @@ namespace Model_Lab
         //Печать строки состояния
         void TraceModel()
         {
-            Tracer.AnyTrace("LVQ = " + VQ.Count + " LQPP = " + QPP.Count + " FREEMEM = " + FREEMEM + " FREEMEM(%) = " + (int)FREEMEM/MAINMEM*100);
+            Tracer.AnyTrace("LVQ = " + VQ.Count.Value + " LQPP = " + QPP.Count.Value + " FREEMEM = " + FREEMEM + " FREEMEM(%) = " + String.Format("{0:0}", FREEMEM / MAINMEM*100));
             Tracer.AnyTrace("");
         }
 

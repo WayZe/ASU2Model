@@ -19,11 +19,12 @@ namespace Model_Lab
             // алгоритм обработки события            
             protected override void HandleEvent(ModelEventArgs args)
             {
+                Model.Tracer.EventTrace(this, ZP.NZ, ZP.KPT, ZP.MEM);
                 if (ZP.MEM <= Model.FREEMEM)
                 {
                     // Добавление заявки в очередь ПП
                     var rec = new QRec();                          
-                    rec.Z = ZP;                                       
+                    rec.Z = ZP;
                     Model.QPP.Add(rec);
 
                     // Уменьшения объема свободной памяти
@@ -36,12 +37,24 @@ namespace Model_Lab
                     rec.Z = ZP;
                     Model.VQ.Add(rec);
                 }
-
                 // Планируем событие К1
                 double dt1 = Model.GenTime.GenerateValue();
-                var ev1 = new K1();                                
+
+                var ev1 = new K1();
+
+                Bid Z1 = new Bid();
+                Z1.NZ = ZP.NZ + 1;
+                Z1.MEM = Model.GenVol.GenerateValue();
+                Z1.KPT = Model.GenKK.GenerateValue();
+                if (Z1.KPT == 0) Z1.KPT = 1;
+                ev1.ZP = Z1;
+
                 Model.PlanEvent(ev1, dt1);                              
                 Model.Tracer.PlanEventTrace(ev1);
+                Model.Tracer.AnyTrace("");
+                Model.TraceModel();
+                Model.Tracer.AnyTrace("");
+
             }
         }
 
@@ -51,14 +64,16 @@ namespace Model_Lab
             // алгоритм обработки события            
             protected override void HandleEvent(ModelEventArgs args)
             {
+                Model.Tracer.EventTrace(this);
                 if (Model.QPP.Count != 0)
                 {
                     // Выбор первой заявки
                     QRec QPPRec = Model.QPP[0];
                     Model.QPP.RemoveAt(0);
                     // Выделение кванта
+                    Model.Tracer.AnyTrace(QPPRec.Z.KPT);
                     QPPRec.Z.KPT--;
-
+                    Model.Tracer.AnyTrace(QPPRec.Z.KPT);
                     if (QPPRec.Z.KPT == 0)
                     {
                         // Увеличение объема свободной ОП 
@@ -77,12 +92,19 @@ namespace Model_Lab
                             }
                         }
                     }
+                    else
+                    {
+                        Model.QPP.Add(QPPRec);
+                    }
                 }
 
                 // Планируем событие К2
                 var ev2 = new K2();
-                Model.PlanEvent(ev2, 1.0);
+                Model.PlanEvent(ev2, Model.DELKV);
                 Model.Tracer.PlanEventTrace(ev2);
+                Model.Tracer.AnyTrace("");
+                Model.TraceModel();
+                Model.Tracer.AnyTrace("");
             }
         }
     }

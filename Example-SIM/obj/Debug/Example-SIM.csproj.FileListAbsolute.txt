@@ -89,3 +89,12 @@ D:\Langs\C#\ASUModel\Example-SIM\obj\Debug\Example-SIM.csproj.CoreCompileInputs.
 D:\Langs\C#\ASUModel\Example-SIM\obj\Debug\Example-SIM.csproj.CopyComplete
 D:\Langs\C#\ASUModel\Example-SIM\obj\Debug\Example-SIM.exe
 D:\Langs\C#\ASUModel\Example-SIM\obj\Debug\Example-SIM.pdb
+D:\Langs\C#\ASU2Model\Example-SIM\bin\Debug\Example-SIM.exe.config
+D:\Langs\C#\ASU2Model\Example-SIM\bin\Debug\Example-SIM.exe
+D:\Langs\C#\ASU2Model\Example-SIM\bin\Debug\Example-SIM.pdb
+D:\Langs\C#\ASU2Model\Example-SIM\bin\Debug\PSS.dll
+D:\Langs\C#\ASU2Model\Example-SIM\obj\Debug\Example-SIM.csprojAssemblyReference.cache
+D:\Langs\C#\ASU2Model\Example-SIM\obj\Debug\Example-SIM.csproj.CoreCompileInputs.cache
+D:\Langs\C#\ASU2Model\Example-SIM\obj\Debug\Example-SIM.csproj.CopyComplete
+D:\Langs\C#\ASU2Model\Example-SIM\obj\Debug\Example-SIM.exe
+D:\Langs\C#\ASU2Model\Example-SIM\obj\Debug\Example-SIM.pdb
